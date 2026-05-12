@@ -648,16 +648,14 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <!-- ========================= -->
     <!-- JAVASCRIPT -->
     <!-- ========================= -->
-    <script>
+<script>
+const menuBtn = document.getElementById("menuBtn");
+const dropdownMenu = document.getElementById("dropdownMenu");
 
-        const menuBtn = document.getElementById("menuBtn");
-        const dropdownMenu = document.getElementById("dropdownMenu");
-
-        menuBtn.addEventListener("click", () => {
-            dropdownMenu.classList.toggle("show");
-        });
-
-    </script>
+menuBtn.addEventListener("click", () => {
+    dropdownMenu.classList.toggle("show");
+});
+</script>
 
 </body>
 
